@@ -126,13 +126,13 @@ dialog .x{position:sticky;float:right;top:0;font-size:13px;color:var(--green);bo
   #index button[aria-current="true"]{box-shadow:inset 0 -1px 0 var(--amber)}
   #index .tourbtn{order:-1;margin:7px 6px 7px 4px;padding:3px 12px;font-size:12px}
   #panel{position:static;width:auto;flex:1 1 auto;min-height:0;border:0;background:var(--bg0);backdrop-filter:none;-webkit-backdrop-filter:none}
-  #pbody{padding:20px 22px 26px}
+  #pbody{padding:20px 22px 84px}
   #pbody h2{font-size:22px;margin-top:4px}
   #pbody .lead{font-size:13.5px;margin:8px 0 14px;padding-bottom:14px}
   #tools{left:auto;right:10px;bottom:10px;transform:none}
   #tools button{min-width:40px;height:36px;padding:0 10px;font-size:12px}
-  #foot{left:14px;bottom:10px;font-size:9.5px;max-width:44%;line-height:1.5}
-  #foot button{font-size:9.5px}
+  #foot{position:fixed;left:0;right:0;bottom:0;max-width:none;z-index:6;font-size:10px;line-height:1.55;text-align:center;padding:7px 16px calc(7px + env(safe-area-inset-bottom));background:#04201f;border-top:1px solid var(--line)}
+  #foot button{font-size:10px}
   #hint{display:none}
   .lb{font-size:10.5px}
   dialog .in{padding:26px 22px}
